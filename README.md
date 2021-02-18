@@ -1,2 +1,2 @@
 # Titanium vscode
- A VSCode extension for Titanium and Thulium.
+ A VSCode extension for Titanium
