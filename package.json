@@ -1,0 +1,25 @@
+{
+    "name": "titanium",
+    "displayName": "Titanium",
+    "description": "VsCode Language support for the titanium esoteric programming language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "titanium",
+            "aliases": ["Titanium", "titanium"],
+            "extensions": [".tix",".titanium"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "titanium",
+            "scopeName": "source.titanium",
+            "path": "./syntaxes/titanium.tmLanguage.json"
+        }]
+    }
+}

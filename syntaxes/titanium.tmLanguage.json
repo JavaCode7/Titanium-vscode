@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Titanium",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.titanium",
+				"match": "\\b(gun|eater)\\b"
+			}, {
+				"name": "entity.name.function.titanium",
+				"match": "\\b(glider|block|blinker)\\b"
+			}, {
+				"name": "constant.numeric.titanium",
+				"match": "\\b([0-9])\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.titanium",
+			"begin": "\"",
+			"end": "\""
+		}
+	},
+	"scopeName": "source.titanium"
+}
