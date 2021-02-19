@@ -2,7 +2,9 @@
     "name": "titanium",
     "displayName": "Titanium",
     "description": "VsCode Language support for the titanium esoteric programming language.",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "JavaCode7",
+    "repository": "https://github.com/JavaCode7/Titanium-vscode",
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -13,7 +15,7 @@
         "languages": [{
             "id": "titanium",
             "aliases": ["Titanium", "titanium"],
-            "extensions": [".tix",".titanium"],
+            "extensions": [".tix", ".titanium"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
